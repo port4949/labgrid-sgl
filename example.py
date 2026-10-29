@@ -14,6 +14,7 @@ env = labgrid.Environment("env.yaml")
 target = env.get_target()
 strategy = target.get_driver("Strategy")
 
-strategy.transition("shell")
+strategy.transition("hss")
 
-strategy.shell.run("systemctl status")
+
+#strategy.shell.run("systemctl status")
